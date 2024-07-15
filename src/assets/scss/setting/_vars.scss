@@ -3,18 +3,12 @@
   // --mainfont-nexon: "nexonLv1";
 
   --black: #000;
-  --black100: #000;
-  --black200: #000;
-  --black300: #000;
-  --black400: #000;
-  --black500: #000;
+  --mainBg :#FCFCF8;
+  --mainRed:#EA002C;
   
   --white: #fff;
-  --white100: #fff;
-  --white200: #fff;
-  --white300: #fff;
-  --white400: #fff;
-  --white500: #fff;
+  --grayType2:#f0f0f0;
+  --grayc3:#C3C3C3;
   
   // 폰트 셋팅
   font-family: var(--mainfont-pretendard);
@@ -29,8 +23,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  @media (max-width: 800px) {
-      font-size: 1.4rem;
-      line-height: 1.4;
-  }
+  // @media (max-width: 800px) {
+  //     font-size: 1.4rem;
+  //     line-height: 1.4;
+  // }
 }

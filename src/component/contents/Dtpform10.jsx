@@ -2,7 +2,7 @@ import React from 'react'
 
 const Dtpform10 = () => {
   return (
-    <div>Dtpform10page</div>
+    <div>Dtpform10-component</div>
   )
 }
 
