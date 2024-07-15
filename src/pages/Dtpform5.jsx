@@ -1,8 +1,9 @@
 import React from 'react'
+import Main from '../component/section/Main'
 
 const Dtpform5 = () => {
   return (
-    <div>Dtpform5page</div>
+    <Main>DTP-5-page</Main>
   )
 }
 

@@ -1,9 +1,11 @@
 import React from 'react'
+import Main from '../component/section/Main'
 
 const Dtpform1 = () => {
+
   return (
     <>
-      <h1>Dtpform 타이틀리스트</h1>
+    <Main>DTP-1-page</Main>
     </>
   )
 }

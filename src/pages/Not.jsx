@@ -1,8 +1,9 @@
 import React from 'react'
+import Main from '../component/section/Main'
 
 const Not = () => {
   return (
-    <div>Not</div>
+    <Main>DTP-Not-page</Main>
   )
 }
 

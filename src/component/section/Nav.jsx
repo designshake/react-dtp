@@ -5,6 +5,9 @@ const Nav = () => {
   return (
     <nav id='nav' role='navigation'>
       <ul className='list'>
+      <li>
+          <Link to={'/'}>HOmeeee</Link>
+        </li>
         <li>
           <Link to={'/Dtpform1'}>Dtpform1</Link>
         </li>
