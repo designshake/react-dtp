@@ -3,7 +3,9 @@ import Main from '../component/section/Main'
 
 const Dtpform4 = () => {
   return (
-    <Main>DTP-4-page</Main>
+    <Main>
+      <h1>DTP-4:DataCatalog </h1>
+    </Main>
   )
 }
 

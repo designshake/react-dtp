@@ -5,7 +5,9 @@
  - props.children으로 해서 
  - page를 결국엔 nav 에서 클릭해서 main으로 보여준다.
  -component는 재활용이므로 써도 되고 안해도 된다.
- 
+
+-비동기화할때 app.js는 <Main> 부분 없애줘야한다.!!!
+  
 
 ## 완성작 보기
 미리보기 : 

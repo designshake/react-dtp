@@ -3,7 +3,9 @@ import Main from '../component/section/Main'
 
 const Dtpform5 = () => {
   return (
-    <Main>DTP-5-page</Main>
+    <Main>
+      <h1>DTP-5-page</h1>
+    </Main>
   )
 }
 

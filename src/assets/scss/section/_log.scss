@@ -1,0 +1,55 @@
+#logBg {
+  background:url('../../images/img_bg_navi_xl.png') no-repeat bottom right;
+  height:100%;
+  background-position: 110% 124%;
+  position:relative;
+  
+    .logBoxWrap {
+      background-color: var(--white);
+      border:1px solid var(--grayType5);
+      box-sizing: border-box;
+      width:88rem;
+      height:42rem;
+      position:absolute;
+      top:10rem;
+      left:50%;
+      transform:translateX(-50%);
+
+        .contents {
+            display:flex;
+            padding:5.2rem 6.2rem;
+
+            .leftBox {
+              width:47rem;
+              display: block;
+              //background-color: aqua;
+              border-right:1px solid var(--grayType5);
+              height:31.6rem;
+              padding: 0 10rem 0 0;
+
+                input::placeholder {
+                  color:var(--orange);
+                }
+
+                li {
+                  padding-bottom:2.4rem;
+                }
+
+                .copyright {
+                  font-size: 1.2rem;
+                  text-align: center;
+                  padding-top: 7rem;
+
+                    span {
+                      font-weight: 800;
+                    }
+                }
+            }
+
+            .rightBox {
+              position:relative;
+              flex:1;
+            }
+        }
+    }
+}
