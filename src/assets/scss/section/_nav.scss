@@ -1,0 +1,28 @@
+#nav {
+
+  .list {
+    padding:0 2rem 2rem 2rem;
+    
+
+      li {
+        font-size:1.4rem;
+        height:4rem;
+        border-bottom:1px solid var(--grayType5);
+        line-height:4rem;
+
+          &:hover {
+            color:var(--orange)
+          }
+
+          img {
+            width:20px;
+            height:20px;
+            display:inline-block;
+            position:relative;
+            top:10px;
+            left:0;
+            margin-right:10px;
+          } 
+      }
+    }
+}

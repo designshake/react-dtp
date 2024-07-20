@@ -28,7 +28,7 @@ const Home = () => {
                   />
                 </li>
                 <LogButton>LOGIN</LogButton>
-                <li className='copyright'>Copyrights(C) <span>2023 SK on.</span> All Rights Reserved.</li>
+                <li className='copyright'>Copyrights(C) <span>2023 EVERLAND.</span> All Rights Reserved.</li>
               </ul>
             </div>
             <div className='rightBox'>

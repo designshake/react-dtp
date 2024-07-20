@@ -17,6 +17,6 @@ export const LogButton = styled.button `
     &:hover {
       color:var(--white);
     }
-
+    
 `
 
