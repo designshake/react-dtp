@@ -7,12 +7,12 @@ const Nav = () => {
     <nav id='nav' role='navigation'>
       <ul className='list'>
         {menuList.map((menu, key) => (
-              <Link to={menu.src}>
-                  <li key={key}>
-                    <img src={menu.icon} alt='' />{menu.title}
-                  </li>
-              </Link>
-          ))}
+            <li key={key}>
+                <Link to={menu.src}>
+                  <img src={menu.icon} alt='' /><span>{menu.title}</span>
+                </Link>
+            </li>
+        ))}
       </ul>
     </nav>
   )

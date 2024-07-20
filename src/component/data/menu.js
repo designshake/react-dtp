@@ -67,4 +67,4 @@ export const menuList = [
       src:'/Dtpfor10'
     },
 
-]
+];

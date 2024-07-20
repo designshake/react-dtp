@@ -2,18 +2,27 @@
 
   .list {
     padding:0 2rem 2rem 2rem;
-    
 
       li {
         font-size:1.4rem;
         height:4rem;
         border-bottom:1px solid var(--grayType5);
         line-height:4rem;
-
-          &:hover {
-            color:var(--orange)
+        
+          a {
+            display:block;
           }
-
+          &:hover {
+            background-color:var(--redType1);
+            border-radius:40px;
+            color:var(--orange);
+            transition: all 0.2s;
+          }
+            span {
+              display: inline-block;
+            }
+        
+       
           img {
             width:20px;
             height:20px;
