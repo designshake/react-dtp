@@ -1,25 +1,76 @@
-#mainWrap {
+//Card.jsx
+#cardMainBg {
+  display: flex;
+  justify-content: center;
   background: url('../../images/img_bg_main.png') no-repeat;
   width:100%;
   height:50rem;
-  display: inline-block;
   margin:0;
   padding:0;
+}
+
+//CardSection.jsx
+#cardSection {
+  padding:1rem 1rem;
+  width:116rem;
+  height:32rem;
+
+    .cardWrap {
+      display:flex;
+      justify-content:flex-start;
 
         li {
-          display: inline-block;
+          display:inline-block;
           width:26rem;
           height:32rem;
-          background:url(./../../images//img_bg_card.png) no-repeat top left var(--grayType3);
-          background-position: 1rem 1rem;
-          border:1px solid var(--grayType4);
           border-radius: 2rem;
-          margin:0 2rem;
-          box-sizing: border-box;
-          margin-top: 3.5rem;
-          isolation: isolate;
+          background-color: var(--grayType2);
+          margin:10px;
+          padding:7rem 1rem 1rem 1rem;
           text-align: center;
+
+            svg{
+              position:relative;
+              top:2px;
+              left:10px;
+            }
+          
+           
+
+            h2 {
+              font-size:5rem;
+              font-weight:800;
+              color:var(--grayType6);
+              letter-spacing: -1px;
+            }
+
+            p {
+              font-size:1.6rem;
+              font-weight: bold;
+              letter-spacing: -1px;
+            }
+
         }
 
+        .currentCard {
+          background-color: var(--mainRed);
 
-}
+          &:hover {
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            transition: all 0.4s;
+          }
+         
+            h2 {
+              color:var(--white);
+            }
+          
+            p {
+              font-size:1.6rem;
+              color:var(--white);
+            }
+        }
+    }
+
+  }
+
+  //DateTable.js

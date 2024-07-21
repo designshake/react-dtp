@@ -20,3 +20,39 @@ export const LogButton = styled.button `
     
 `
 
+export const GraysmallBtn = styled.button`
+
+  display:inline-block;
+  width:9rem;
+  height:4rem;
+  border-radius: 40px;
+  background-color: var(--grayc3);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight:bold;
+  color:var(--white);
+  cursor: pointer;
+  line-height:4rem;
+  margin:5rem 10px 0;
+
+    &:hover {
+      background-color: var(--mainRed);
+      color: var(--white);
+    }
+  
+`
+
+export const RedXLBtn = styled(GraysmallBtn)`
+
+    background-color: var(--redType1);
+    color:var(--white);
+    width:14rem;
+
+    &:hover {
+      background-color: var(--redType1);
+      color: var(--white);
+      
+    }
+
+`
+

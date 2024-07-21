@@ -1,5 +1,6 @@
 import React from 'react'
 import Main from '../component/section/Main'
+import Card from '../component/contents/Card'
 
 
 const Dtpform1 = () => {
@@ -8,7 +9,7 @@ const Dtpform1 = () => {
     <>
     <Main>
       <section className='wrapContent'>
-        <h1>DTP-1:카드섹션, 공지사항.</h1>
+        <Card />
       </section>
     </Main>
     </>

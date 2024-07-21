@@ -1,9 +1,10 @@
 import React from 'react'
+import CardSection from '../form/CardSection'
 
 const Card = () => {
   return (
-    <div>
-      <h1>Card-Component</h1>
+    <div id='cardMainBg'>
+      <CardSection />
     </div>
   )
 }
