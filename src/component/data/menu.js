@@ -12,12 +12,12 @@ import img10 from './../../assets/images/ico_10.png'
 export const menuList = [
 
     {
-      title:'dtp사이트',
+      title:'DTP Login',
       icon:img01,
       src:'/',
     },
     {
-      title:'Dtpform1',
+      title:'Global Landing',
       icon:img02,
       src:'/Dtpform1'
     },
@@ -62,7 +62,7 @@ export const menuList = [
       src:'/Dtpform9'
     },
     {
-      title:'Dtpfor10',
+      title:'Dtpform10',
       icon:img10,
       src:'/Dtpfor10'
     },

@@ -34,6 +34,7 @@ export const GraysmallBtn = styled.button`
   cursor: pointer;
   line-height:4rem;
   margin:5rem 10px 0;
+  transition: all 0.3s;
 
     &:hover {
       background-color: var(--mainRed);
@@ -44,14 +45,13 @@ export const GraysmallBtn = styled.button`
 
 export const RedXLBtn = styled(GraysmallBtn)`
 
-    background-color: var(--redType1);
+    background-color: var(--redType2);
     color:var(--white);
     width:14rem;
 
     &:hover {
-      background-color: var(--redType1);
-      color: var(--white);
-      
+      background-color: var(--redType2);
+      color: var(--white);    
     }
 
 `

@@ -71,6 +71,111 @@
         }
     }
 
-  }
+}
 
-  //DateTable.js
+//LandingListTb
+.listWrap {
+  display:flex;
+  width:101rem;
+  height:20rem;
+  background-color:var(--white);
+  position:relative;
+  top:-6.8rem;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+
+//LandingListTb.jsx
+#cardBox {
+  width:54rem;
+  padding:0 2rem;
+  border-right:1px solid var(--grayType7);
+
+    .cardCont {
+      display: flex;
+    
+
+        .date {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          width:8rem;
+          height:8rem;
+          background: var(--mainRed);
+
+            .mainDate {
+              font-size: 2.6rem;
+              font-weight: 800;
+              color: var(--white);
+            }
+
+            .mainMmyy {
+              color:var(--white);
+              font-size: 1.3rem;
+            }
+        }
+        
+    }
+
+    .txtCont {
+      padding: 2rem 2rem 1.5rem 2.4rem;
+
+        li:first-child {
+          font-size:1.6rem;
+          font-weight: bold;
+          letter-spacing: -1px;
+        }
+        li:last-child {
+          font-size:1.4rem;
+          display:inline-block;
+          
+            a {
+              overflow:hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+        }
+    }
+
+    .detailCont {
+      
+        ul {
+          justify-content: space-between;
+          padding:1.7rem 2rem 0 0;
+
+            li {
+              position: relative;
+              display:block;
+              width:100%;
+              color: var(--grayType6);
+              font-size:1.4rem;
+              letter-spacing: -1px;
+              border-bottom:1px solid var(--grayType2);
+              line-height:3rem;
+              padding:0 2rem 0 2rem;
+
+                a {
+                  display: flex;
+                  justify-content: space-between;
+                }
+
+                  .index::before {
+                    content:'';
+                    display:block;
+                    position:relative;
+                    top:18px;
+                    left:-10px;
+                    width:3px;
+                    height:3px;
+                    border-radius: 50px;
+                    background-color:var(--grayType6);
+                  }
+                
+            }
+        }
+
+    }
+  
+}
