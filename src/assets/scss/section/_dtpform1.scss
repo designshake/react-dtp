@@ -76,8 +76,9 @@
 //LandingListTb
 .listWrap {
   display:flex;
-  width:101rem;
-  height:20rem;
+  width:110rem;
+  height:27rem;
+  padding:2rem;
   background-color:var(--white);
   position:relative;
   top:-6.8rem;
@@ -89,8 +90,8 @@
 //LandingListTb.jsx
 #cardBox {
   width:54rem;
-  padding:0 2rem;
-  border-right:1px solid var(--grayType7);
+  padding:0;
+  //border-right:1px solid var(--grayType7);
 
     .cardCont {
       display: flex;
@@ -106,7 +107,7 @@
           background: var(--mainRed);
 
             .mainDate {
-              font-size: 2.6rem;
+              font-size: 2.8rem;
               font-weight: 800;
               color: var(--white);
             }

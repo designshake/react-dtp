@@ -12,17 +12,17 @@ import img10 from './../../assets/images/ico_10.png'
 export const menuList = [
 
     {
-      title:'DTP Login',
+      title:'DTP 로그인',
       icon:img01,
       src:'/',
     },
     {
-      title:'Global Landing',
+      title:'글로벌랜딩',
       icon:img02,
       src:'/Dtpform1'
     },
     {
-      title:'Dtpform2',
+      title:'이미지조회',
       icon:img02,
       src:'/Dtpform2'
     },

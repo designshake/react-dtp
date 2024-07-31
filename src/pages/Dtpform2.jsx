@@ -1,11 +1,14 @@
 import React from 'react'
 import Main from '../component/section/Main'
+import BasicTabs from '../component/contents/BasicTabs'
 
 const Dtpform2 = () => {
   return (
     <Main>
       <section className='wrapContent'> 
-        <h1>DTP-2:QNA 목록</h1>
+        <div className='tabCustom'>
+          <BasicTabs/>
+        </div>
       </section>
     </Main>
   )

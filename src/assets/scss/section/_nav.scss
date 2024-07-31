@@ -5,10 +5,12 @@
 
       li {
         font-size:1.4rem;
+        font-weight: 800;
         height:4rem;
         border-bottom:1px solid var(--grayType5);
         line-height:4.2rem;
         width:100%;
+        letter-spacing: -1px;
         
           a {
             display:block;

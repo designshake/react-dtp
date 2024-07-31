@@ -2,7 +2,9 @@ import React from 'react'
 
 const Breadcrumb = () => {
   return (
-    <section id='breadcrumb' role=''>Breadcrumb</section>
+    <section id='breadcrumb'>
+      Breadcrumb
+    </section>
   )
 }
 
